@@ -61,7 +61,7 @@ function daynames() {
       document.getElementById("view").innerHTML = "Your day name is " + femaleNames[0] + " ,which means you were born on a Sunday.";
     }
     else {
-      alert("enter your information please");
+      alert("An error occurred!!! Try again");
     }
   }
 }
