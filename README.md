@@ -22,7 +22,7 @@ Once you are on the landing page ;
 ### Contact Information
   * EMAIL:shadrackanayo@gmail.com
 ### Link to Deployed System
-  * link:
+  * link:https://shack1234.github.io/Akan-names/.
 
 ### License and Copyright Information.
 This project is licensed under the MIT License 
