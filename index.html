@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Akan Name</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Gupter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Gupter|Italianno|Pattaya&display=swap"
+    rel="stylesheet">
+  <script src="function.js"></script>
+</head>
+<body>
+  <nav class="nav-menu">
+    <div class="col-xs-2">
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+  <div class="index">
+    <h1> Akan Name History </h1>
+    <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘),
+      with the seventh day inclusive. In Ashanti homes,Sunday-born males and females are named Kwasi or Kwesi and
+      Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa
+      (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’);
+      Wednesday-born Kwaku or Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning
+      ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and
+      Saturday-born Kwame, Ama (meaning ‘associated with God’).
+    </p>
+    <p>Fanti boys and girls, on the other hand, are given the day names: Monday – Cudjoe, Kojo, Quajo, Adjoa, Ajuba,
+      Juba; Tuesday – Quabena, Abena, Bena; Wednesday – Quaco, Aqua, Acooba, Cooba; Thursday – Quaw, Aba, Yaaba; Friday
+      – Cuffy, Afiba, Fiba; Saturday – Quame, Quamina, Ama; and Sunday
+    </p>
+  </div>
+  <div id="about">
+    <h1 style="color:skyblue;">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given
+      their
+      first name as a 'day name' which corresponds to the day in the week they were born. Test your Ghanian day names
+      below.</h1>
+    <div class="register">
+      <h1>Enter Your Birthday Details Below</h1>
+      <form method="post" onsubmit="return false" class="form">
+        <label for="month">MM</label>
+        <input type="number" name="month" id="month" value="" max="12" min="1" placeholder="Month in figures"
+          required /><br>
+        <label for="date">Date</label>
+        <input type="number" name="date" id="day" maxlength="2" max="31" min="1" placeholder="Day in figures"
+          required /><br>
+        <label for="year">Year</label>
+        <input type="number" name="year" id="year" maxlength="4" min="1900" max="2020" placeholder="Year in figures"
+          required />
+        <h1>Choose Your Gender Here</h1>
+        <label>M</label>
+        <input type="radio" name="male" id="gender" value="male" checked /> <br>
+        <label>F</label>
+        <input type="radio" name="male" id="gender" value="female" checked /> <br>
+        <input type="submit" value="submit" onclick="daynames()" />
+      </form>
+      <p id="view"> Your output is:</p>
+    </div>
+  </div>
+  <div id="contact">
+    <footer id="colorlib-footer">
+      <div class="container">
+        <div class="row row-pb-md">
+          <div class="col-container">
+            <div class="col-md-3 colorlib-widget">
+              <div class="col">
+                <h4>Akan Names</h4>
+                <p>Frequently in Ghana, children are given their <br>first name as a 'day name'
+                  which corresponds <br>to the day in the week they were born.
+                  Akan <br>names are derived from Ghanian culture<p>
+              </div>
+            </div>
+            <div class="col">
+              <h4>Information</h4>
+              <p>
+                <ul class="colorlib-footer-links">
+                  <li><a href="index.html">About Me</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </p>
+            </div>
+            <div class="col">
+              <h4>Social Media</h4>
+              <p>
+                <ul class="colorlib-footer-links">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Twitter</a></li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <div class="col">
+                <h4>Contact</h4>
+                <p>
+                  <ul class="colorlib-footer-links">
+                    <li><a href="mailto:shadrackanayo@gmail.com">shadrackanayo@gmail.com</a></li>
+                    <li><a href="tel://0713968063">+ 254 713968063</a></li>
+                    <li><a href="#">www.shadrack00.com</a></li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p">
+        <p><span class="block">Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Shadrack Anayo All rights reserved </span></p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
