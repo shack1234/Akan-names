@@ -28,7 +28,7 @@ function daynames() {
       document.getElementById("view").innerHTML = "Your day name is " + maleNames[3] + " ,which means you were born on a Wednesday.";
     }
     else if (Math.ceil(dayOfWeek) == 4 && gender === 'male') {
-      document.getElementById("view").innerHTML = "Your day name is " + maleNames[4] + " ,which means you were born on a Thursay.";
+      document.getElementById("view").innerHTML = "Your day name is " + maleNames[4] + " ,which means you were born on a Thursday.";
     }
     else if (Math.ceil(dayOfWeek) == 5 && gender === 'male') {
       document.getElementById("view").innerHTML = "Your day name is " + maleNames[5] + " ,which means you were born on a Friday.";
@@ -49,7 +49,7 @@ function daynames() {
       document.getElementById("view").innerHTML = "Your day name is " + femaleNames[3] + " ,which means you were born on a Wednesday.";
     }
     else if (Math.ceil(dayOfWeek) == 4 && gender === 'female') {
-      document.getElementById("view").innerHTML = "Your day name is " + femaleNames[4] + " ,which means you were born on a Thursay.";
+      document.getElementById("view").innerHTML = "Your day name is " + femaleNames[4] + " ,which means you were born on a Thursday.";
     }
     else if (Math.ceil(dayOfWeek) == 5 && gender === 'female') {
       document.getElementById("view").innerHTML = "Your day name is " + femaleNames[5] + " ,which means you were born on a Friday.";
@@ -61,7 +61,7 @@ function daynames() {
       document.getElementById("view").innerHTML = "Your day name is " + femaleNames[0] + " ,which means you were born on a Sunday.";
     }
     else {
-      alert("An error occurred!!! Try again");
+      alert("An error occurred!!! Check your form again");
     }
   }
 }
