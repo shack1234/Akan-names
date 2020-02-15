@@ -1,4 +1,3 @@
-The project contains a well-documented README file. This should have: 
 # Project Name
 Akan Names
 ## Project Description
@@ -6,27 +5,26 @@ Akan Names is a project that checks birthday dates and gives a user a 'day name'
 ### Author Information
 My name is Shadrack Anayo. A Junior developer, on learning.
 ### Setup instructions -
->once you are on the landing page enter your dates of birth
->select gender
->submit
->you will see the output if everything is correct in the from
-
+Once you are on the landing page ;
+  * Enter your dates of birth
+  * Select gender
+  * Submit
 ### BDD
-  * Where to start in the process:
+  * Where to start in the process:Enter your dates of birth, Select gender, Submit
   * What to test and what not to test:TEST EVERYTHING
   * How much to test in one go: USER SHOULD TEST ONE AT A GO as much as you want
   * How to understand why a test fails:Check if date, year or month is correct, check whether your     inputs are in figures.
 
 ### Technologies Used
-  * used javascript to vallidate form
+  * used JAVASCRIPT to vallidate form
   * used CSS
-  * used html
+  * used HTML
 ### Contact Information
   * EMAIL:shadrackanayo@gmail.com
-### Link to deployed system
+### Link to Deployed System
   * link:
 
-### License and Copyright information.
+### License and Copyright Information.
 This project is licensed under the MIT License 
 
 Copyright (c) Feb 2020 Shadrack Anayo || All Rights Reserved
