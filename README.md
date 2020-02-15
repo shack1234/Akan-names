@@ -10,3 +10,14 @@ My name is Shadrack Anayo. A Junior developer, on learning.
 >select gender
 >submit
 >you will see the output if everything is correct in the from
+
+### BDD
+  * Where to start in the process:
+  * What to test and what not to test:TEST EVERYTHING
+  * How much to test in one go: USER SHOULD TEST ONE AT A GO as much as you want
+  * How to understand why a test fails:Check if date, year or month is correct, check whether your     inputs are in figures.
+
+### Technologies Used
+  * used javascript to vallidate form
+  * used CSS
+  * used html
