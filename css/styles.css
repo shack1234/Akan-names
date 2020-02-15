@@ -1,0 +1,249 @@
+h1{
+  color:green;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Gupter', serif;
+  font-family: 'Italianno', cursive;
+  font-family: 'Pattaya', sans-serif;
+  text-align: justify;
+}
+p{
+  color:black;
+  text-align: center;
+  font-size: large;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Gupter', serif;
+}
+body{
+  background-color:white;
+}
+ .nav-menu{
+  overflow: hidden;
+  background-color:white;
+  text-align: left;
+  margin-bottom: 0em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  display:block;
+}
+.nav-menu a{
+  color:blue;
+  float: right;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  font-size: 18px;
+  padding: 30px 12px;
+}
+a {
+  color:gold;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; 
+}
+.nav-menu a:hover{
+  color:burlywood;
+  text-decoration: none;
+  background-color:white;
+  transition: 0.5s; 
+}
+.form{
+  text-align: center;
+}
+.register input, select{
+	width:50%;
+	margin-bottom: 10px;
+}
+.register input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:#DAF7A6;
+  color:blue;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family:Bell MT;
+  box-sizing: border-box;
+}
+.register{
+  width:860px;
+  height: 500px;
+  margin:2% 20%;
+  box-sizing: border-box;
+  font-family:aerial;
+  padding: 20px;
+  border-style: groove;
+  outline: none;
+}
+.register p{
+  color: blue;
+}
+.register label{
+  color: green;
+}
+.register input[type="radio"]{
+  height: 30px;
+ }
+.register input[type="number"]{
+  border: auto;
+  border-bottom: 1px solid green;
+  background:transparent;
+  height: 40px;
+  color: #373737;
+  font-size: 20px;
+  text-align: center;
+  font-family:Bell MT;
+}
+.register input[type="submit"]:hover{
+	cursor: pointer;
+	background:#DAF7A6;
+	color:000;
+}
+h2{
+  text-align: center;
+  color:gold;
+}
+.col-xs-2{
+  width: 95%;
+  float: right;
+  text-align: left;
+  position: relative;
+  min-height:2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:gold;
+}
+.index{
+  padding-top: 50px;
+  padding-bottom: 110px;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+}
+.index p{
+  color:white;
+  text-align:center;
+  font-size: larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.index h1{
+  text-align: center;
+  color:skyblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+
+}
+.index .row{
+  padding: 30px 0;
+  font-size: 22px;
+}
+.index .btn{
+  padding: 10px 25px 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background: transparent;
+}
+.index .btn:focus{
+  box-shadow: none !important;
+}
+.index .btn:hover{
+  border: 2px solid #000 !important;
+  background: #000 !important;
+  transition: 0.6s;
+}
+.index .btn .fa{
+  margin-right: 10px;
+}
+/* FOOTER STYLING */
+footer{
+  display: block;
+  background-color:skyblue;
+}
+#colorlib-footer {
+  padding-bottom: 9em;
+  clear: both;
+  padding: 7em 0 0 0;
+}
+#colorlib-footer .colorlib-footer-links {
+  padding: 0;
+  margin: 0; }
+@media screen and (max-width: 768px) {
+#colorlib-footer .colorlib-footer-links {
+  margin-bottom: 30px; 
+} 
+}
+#colorlib-footer .colorlib-footer-links li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+  display: block; 
+}
+#colorlib-footer .colorlib-footer-links li a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none; }
+#colorlib-footer .colorlib-footer-links li a:hover {
+  text-decoration: underline; 
+}
+#colorlib-footer .copy {
+  padding: 2em 0; }
+#colorlib-footer .copy p {
+  margin-bottom: 0; 
+}
+* footer {
+  box-sizing: border-box;
+}
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+@media only screen and (max-width: 600px) {
+.col { 
+  display: block;
+  width: 100%;
+}
+}
+.col h1, h2,h3,h4{
+  color: goldenrod;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0; 
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color:maroon;
+  letter-spacing: 1px; 
+  text-align: left;
+}  
+footer p{
+  text-align:justify;
+  color:black;
+  font-size: 18px;
+}
+.p p{
+  text-align:center;
+  color:black;
+  font-size: 18px; 
+}
+a:hover{
+  color:gold;
+  text-decoration: none;
+  background-color:skyblue;
+}
+/*  END OF FOOTER STYLING */
