@@ -48,7 +48,12 @@
         <label for="year">Year</label>
         <input type="number" name="year" id="year" maxlength="4" min="1900" max="2020" placeholder="Year in figures"
           required />
-        
+        <h1>Choose Your Gender Here</h1>
+        <label>M</label>
+        <input type="radio" name="male" id="gender" value="male" checked /> <br>
+        <label>F</label>
+        <input type="radio" name="male" id="gender" value="female" checked /> <br>
+        <input type="submit" value="submit" onclick="daynames()" />
       </form>
       <p id="view"> Your output is:</p>
     </div>
