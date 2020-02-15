@@ -106,7 +106,8 @@ a {
 .register input[type="submit"]:hover{
 	cursor: pointer;
 	background:#DAF7A6;
-	color:000;
+  color:000;
+  
 }
 h2{
   text-align: center;
