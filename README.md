@@ -1,28 +1,28 @@
 # Project Name
-Akan Names
+Akan Names.
 ## Project Description
-Akan Names is a project that checks birthday dates and gives a user a 'day name' from those dates. for example in Ghana children or other people are given names according to their date of birth(according season one is born extra).
+Akan Names is a project that checks birthday dates and gives a user a 'day name' from those dates. for example in Ghana children or other people are given names according to their date of birth(That is associated with earth,God,fertility,peace ocean~extra).
 ### Author Information
-My name is Shadrack Anayo. A Junior developer, on learning.
-### Setup instructions -
-Once you are on the landing page ;
+My name is Shadrack Anayo.
+### Setup instructions
+Once you are on the landing page;
   * Enter your dates of birth
   * Select gender
-  * Submit
+  * Submit 
 ### BDD
-  * Where to start in the process:Enter your dates of birth, Select gender, Submit
-  * What to test and what not to test:TEST EVERYTHING
-  * How much to test in one go: USER SHOULD TEST ONE AT A GO as much as you want
+  * Where to start in the process:Enter your dates of birth, Select gender, Submit.
+  * What to test and what not to test:TEST EVERYTHING.
+  * How much to test in one go: USER SHOULD TEST ONE AT A GO as much as you want.
   * How to understand why a test fails:Check if date, year or month is correct, check whether your     inputs are in figures.
 
 ### Technologies Used
-  * used JAVASCRIPT to vallidate form
-  * used CSS
-  * used HTML
+  * Used JAVASCRIPT to validate form.
+  * Used CSS.
+  * Used HTML.
 ### Contact Information
   * EMAIL:shadrackanayo@gmail.com
 ### Link to Deployed System
-  * link:https://shack1234.github.io/Akan-names/.
+  * Link:https://shack1234.github.io/Akan-names/.
 
 ### License and Copyright Information.
 This project is licensed under the MIT License 
