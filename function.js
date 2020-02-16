@@ -1,3 +1,6 @@
+function reset() {
+  window.location.reload();
+}
 function daynames() {
   var year = document.getElementById("year").value;
   var YY = parseInt(year);
