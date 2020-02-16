@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Akan Name</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -8,6 +9,7 @@
     rel="stylesheet">
   <script src="function.js"></script>
 </head>
+
 <body>
   <nav class="nav-menu">
     <div class="col-xs-2">
@@ -44,7 +46,7 @@
           required /><br>
         <label for="date">Date</label>
         <input type="number" name="date" id="day" maxlength="2" max="31" min="1" placeholder="Day in figures"
-          required/><br>
+          required /><br>
         <label for="year">Year</label>
         <input type="number" name="year" id="year" maxlength="4" min="1900" max="2020" placeholder="Year in figures"
           required />
@@ -54,8 +56,9 @@
         <label>F</label>
         <input type="radio" name="male" id="gender" value="female" checked /> <br>
         <input type="submit" value="submit" onclick="daynames()" />
+        <button value="reset" onclick="reset()">Reset</button>
       </form>
-      <p id="view"> Your output is:</p>
+      <p id="view" onload="reset()"> Your output is:</p>
     </div>
   </div>
   <div id="contact">
@@ -98,9 +101,9 @@
                   <ul class="colorlib-footer-links">
                     <li><a href="mailto:shadrackanayo@gmail.com">shadrackanayo@gmail.com</a></li>
                     <li><a href="tel://0713968063">+ 254 713968063</a></li>
-                    <li><a href="#">www.shadrack00.com</a></li>
+                    <li><a href="#">www.shadrack.com</a></li>
                   </ul>
-                </p>
+                </p>Contact
               </div>
             </div>
           </div>
@@ -108,9 +111,10 @@
       </div>
       <div class="p">
         <p><span class="block">Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> Shadrack  All rights reserved </span></p>
+            <script>document.write(new Date().getFullYear());</script> Shadrack All rights reserved </span></p>
       </div>
     </footer>
   </div>
 </body>
+
 </html>
