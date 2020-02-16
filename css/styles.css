@@ -63,7 +63,7 @@ a {
 	width:50%;
 	margin-bottom: 10px;
 }
-.register input[type="submit"]{
+.register button,input[type="submit"]{
   border: none;
   outline: none;
   height: 40px;
